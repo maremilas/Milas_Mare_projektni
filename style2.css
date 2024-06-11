@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+*
+	ul {	
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 350px;
+			} 
+	li {	display:inline; 
+			background-color:deeppink;
+			padding:20px;
+			border: 2px #F598CA;
+			border-radius: 25px;
+		    opacity: .6;
+		
+		}
+		
+	li a {	color:white; 
+			font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+body{
+	background-image:url("SLIKE/pozadina2.jpeg");
+	backface-visibility: .6;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar{
+	width: 85%;
+	height: 80px;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+	padding: 0rem calc((100vw - 1300px) / 2);
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.navbar ul li a {
+	width:10px;
+	height:10px;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-transform:uppercase;
+}
+.navbar ul li:after{
+	content: "";
+	height: 3px;
+	width: 0;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover:after{
+	width: 100%
+}
+.content h1{
+	font-size: 50px;
+	margin-top: 80px;
+}
+
+.content p{
+	margin: 20px;
+	font-weight: 100;
+	line-height: 25px;
+	color:white;
+	font-size: 20px;
+
+}
+.paragraf{color:deeppink;background-color:rgba(251,181,213,0.50)}
+.paragraf_2{color: white;}
+.novi_blok{
+	background-color:rgba(254,194,238,0.80);
+	padding: 22px;
+	margin:20px;
+	width: 50%;
+	position: center;
+}
+	
+	
+button{
+	width: 200px;
+	padding: 20px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #F29AC8;
+	background-color:#F29AC8;
+	color:hotpink;
+	cursor:pointer;
+	position: relative;
+	
+}
+span{
+	background:#F29AC8;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	
+butten:hover span{
+	width: 100%;
+}
+butten:hover{
+	border: none;
+}
+a:link {
+	color:white;
+	background-color:hotpink;
+	padding: 5px;
+	line-height: 40px;
+	border: 1px solid #000000;
+}
+	
+	
