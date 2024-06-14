@@ -1,6 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
+@font-face {
+    font-family: 'MareMilasFont';
+    src: url('DATOTEKA/MareMilasnovifont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+h1 {
+    font-family: 'MareMilasFont', sans-serif;
+}
 	ul {	
 			padding:20px; 
 			margin-left: auto; 
